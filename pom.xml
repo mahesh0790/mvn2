@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mahekart</groupId>
   <artifactId>mahekart</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>mahekart</name>
   <url>http://maven.apache.org</url>
@@ -15,4 +15,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<build>
+<finalName>maheee</finalName>
+</build>
 </project>
